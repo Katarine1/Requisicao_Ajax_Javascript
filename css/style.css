@@ -1,0 +1,70 @@
+/* All */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Body */
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
+/* Body and Header and Section */
+
+body, header, section {
+	width: 100%;
+}
+
+/* Header */
+
+header {
+	height: 100px;	
+	background-color: #CC03;
+}
+
+#header {
+	text-align: center;	
+}
+
+/* Title */
+
+#title {
+	width: 40%;
+}
+
+#title h1 {
+	margin-left: 20px;
+}
+
+/* Menu */
+
+#menu {
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#menu ul {
+	display: flex;
+	justify-content: center;
+}
+
+#menu ul li {
+	list-style: none;
+	padding-right: 10px;
+	cursor: pointer;
+	color: #000;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+}
+
+/* Page */
+
+#page p , #page h2 {
+	margin: 20px;
+}
