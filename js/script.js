@@ -12,13 +12,13 @@ function requestPage(url) {
 	ajax.onreadystatechange = function() {
 		if(ajax.status == 200) {
 			console.log(ajax.status);
-			document.getElementById('header').style.display = 'none';
-			// Shows the text of the selected page.
+			
 			document.getElementById('page').innerHTML = ajax.responseText;			
 		}
 
 		if(ajax.status == 404) {
 			console.log(ajax.status);
+			
 			document.getElementById('page').innerHTML = 'Try again';			
 		}
 	}
